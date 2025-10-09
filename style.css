@@ -1502,7 +1502,10 @@ body {
     }
 
     .message-content {
-        max-width: 100%;
+        max-width: 90vw;
+        padding: 16px 12px;
+        margin: 0 auto;
+        box-sizing: border-box;
     }
 
     .modal-content {
