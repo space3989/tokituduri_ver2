@@ -1551,10 +1551,11 @@ body {
 
     .chat-messages {
         max-height: 300px;
+        height: 40vh;
     }
 
     .chat-container {
-        height: 50vh;
+        height: 60vh;
     }
 }
 
