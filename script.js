@@ -931,8 +931,8 @@ function clearChat() {
             chatMessages.innerHTML = `
                 <div class="message ai-message">
                     <div class="message-content">
-                        <p>こんにちは！今日はどんな一日でしたか？お話を聞かせてください。</p>
-                        <button class="voice-play-btn" data-text="こんにちは！今日はどんな一日でしたか？お話を聞かせてください。">🔊</button>
+                        <p>こんにちは！今日はどんな1日でしたか？お話を聞かせてください。</p>
+                        <button class="voice-play-btn" data-text="こんにちは！今日はどんな1日でしたか？お話を聞かせてください。">🔊</button>
                     </div>
                 </div>
             `;
@@ -1219,8 +1219,8 @@ function startNewDiary() {
         chatMessages.innerHTML = `
             <div class="message ai-message">
                 <div class="message-content">
-                    <p>こんにちは！今日はどんな一日でしたか？お話を聞かせてください。</p>
-                    <button class="voice-play-btn" data-text="こんにちは！今日はどんな一日でしたか？お話を聞かせてください。">🔊</button>
+                    <p>こんにちは！今日はどんな1日でしたか？お話を聞かせてください。</p>
+                    <button class="voice-play-btn" data-text="こんにちは！今日はどんな1日でしたか？お話を聞かせてください。">🔊</button>
                 </div>
             </div>
         `;
