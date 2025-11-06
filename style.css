@@ -114,8 +114,6 @@
   --space-20: 20px;
   --space-24: 24px;
   --space-32: 32px;
-  --space-40: 40px;
-  --space-64: 64px;
 
   /* Border Radius */
   --radius-sm: 6px;
@@ -397,9 +395,9 @@ pre code {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 32px !important;
-  font-size: 1.2rem !important;
+  padding: var(--space-8) var(--space-16);
   border-radius: var(--radius-base);
+  font-size: var(--font-size-base);
   font-weight: 500;
   line-height: 1.5;
   cursor: pointer;
@@ -740,6 +738,7 @@ select.form-control {
 }
 
 /* END PERPLEXITY DESIGN SYSTEM */
+```css
 /* 基本設定 */
 * {
     margin: 0;
@@ -904,8 +903,7 @@ body {
 .chat-container {
     display: flex;
     flex-direction: column;
-    height: 90vh;
-    width: 100%;
+    height: 60vh;
 }
 
 .chat-messages {
@@ -915,7 +913,7 @@ body {
     background: var(--color-background);
     border-radius: var(--radius-lg);
     margin-bottom: var(--space-16);
-    max-height: 600px;
+    max-height: 400px;
     border: 1px solid var(--color-border);
 }
 
@@ -933,9 +931,8 @@ body {
 }
 
 .message-content {
-    max-width: 85%;
-    padding: 24px 48px;
-    font-size: 1.2rem;
+    max-width: 70%;
+    padding: var(--space-16) var(--space-24);
     border-radius: var(--radius-lg);
     position: relative;
 }
@@ -1502,10 +1499,7 @@ body {
     }
 
     .message-content {
-        max-width: 90vw;
-        padding: 16px 12px;
-        margin: 0 auto;
-        box-sizing: border-box;
+        max-width: 85%;
     }
 
     .modal-content {
@@ -1553,12 +1547,11 @@ body {
     }
 
     .chat-messages {
-        max-height: 65vh;
-        height: 65vh;
+        max-height: 300px;
     }
 
     .chat-container {
-        height: 75vh;
+        height: 50vh;
     }
 }
 
@@ -1632,3 +1625,4 @@ body {
     margin-bottom: var(--space-16);
     border: 1px solid rgba(var(--color-error-rgb), var(--status-border-opacity));
 }
+```
